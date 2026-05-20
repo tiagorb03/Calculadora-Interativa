@@ -236,6 +236,21 @@ button:active {
   background: #221515;
 }
 
+/* Backspace */
+.btn-back {
+  background: #1E1A12;
+  color: #C8922A;
+  border: 1px solid #2E2510;
+  font-size: 20px;
+  box-shadow:
+    0 2px 0 #111,
+    0 1px 4px rgba(0, 0, 0, 0.4);
+}
+.btn-back:hover {
+  background: #261F14;
+  color: #E0A83A;
+}
+
 /* Wide span */
 .span2 {
   grid-column: span 2;
